@@ -1,6 +1,6 @@
     /*          Picsart Automation Task (Web)     */
 
-    /*    This class defines the setup and closure of each test suite      */
+    /*    This class defines the setup and closure of each test      */
 
     package tests;
 

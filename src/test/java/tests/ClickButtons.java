@@ -34,7 +34,4 @@ public class ClickButtons extends TestManager {
                 (By.className("menu-navLink-0-2-29")));
         Assert.assertEquals(driver.getCurrentUrl(), "https://picsart.com/blog");
     }
-
-//    @Test(retryAnalyzer = listeners.RetryAnalyzer.class)
-//    public void clickDesignSchool() {
 }
