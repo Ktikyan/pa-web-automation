@@ -7,6 +7,7 @@
 
 - Multithreaded test runs
 - Dependency injection
+- JSON Schema Validation
 - Logging mechanism
 - Retry mechanism
 - Wait mechanism
