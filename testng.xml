@@ -10,6 +10,11 @@
             <class name="tests.ClickButtons"/>
         </classes>
     </test>
+    <test thread-count = "5" name="Search">
+        <classes>
+            <class name="tests.Search"/>
+        </classes>
+    </test>
     <test thread-count = "5" name="JSON Schema Validator">
         <classes>
             <class name="tests.JSONSchemaValidator"/>

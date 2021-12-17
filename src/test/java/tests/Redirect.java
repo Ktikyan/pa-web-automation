@@ -1,6 +1,6 @@
     /*        Picsart Automation Task (Web)       */
 
-    /*        Tests of Redirect Test Suite        */
+    /*             Redirect Test Suite            */
 
     package tests;
 
@@ -26,9 +26,7 @@
                 wait.until(ExpectedConditions.urlToBe("https://picsart.com/create"));
                 System.out.println(driver.getCurrentUrl());
                 redirected = true;
-            } catch (Exception exp) {
-                System.out.println("Did not redirect");
-            }
+            } catch (Exception ignored) {}
             Assert.assertFalse(redirected);
         }
 

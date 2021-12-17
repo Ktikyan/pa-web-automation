@@ -1,4 +1,4 @@
-    /*      Picsart Automation Task (Web)            */
+    /*          Picsart Automation Task (Web)         */
 
     /*  Retry Analyzer to rerun failed tests 3 times  */
 
