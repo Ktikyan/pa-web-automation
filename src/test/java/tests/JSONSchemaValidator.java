@@ -17,8 +17,8 @@ public class JSONSchemaValidator extends TestManager {
 
     @Test
     public void validateJSONSchema() {
-        File schema = new File("src\\main\\resources\\JSONSchema.json");
+        File schema = new File("src\\main\\resources\\JSONSchema.json");                                    // creating a new file with the pathname of JSONSchema.json file
         given().get("https://api.picsart.com/localizations/en/messages?project=reusable_components,photo_editor")
-                .then().assertThat().body(matchesJsonSchema(schema));
+                .then().assertThat().body(matchesJsonSchema(schema));                                                // gets the response and compares it with our schema
     }
 }
